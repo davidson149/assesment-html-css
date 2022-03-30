@@ -11,14 +11,16 @@ function handleSubmit(evt) {
 let form = document.querySelector('form#contact');
 form.addEventListener('submit', handleSubmit);
 
+console.log(form)
 function imgMouseOver(evt){
 	evt.preventDefault();
 
 	alert('The champ is here');
 }
-let img=document.querySelector('img#src');
-img.addEventListener('mouseover',imgMouseOver);
 
+let img=document.querySelector('img');
+img.addEventListener('mouseover',imgMouseOver);
+console.log(img)
 
 
 // let img=document.querySelector('#img');

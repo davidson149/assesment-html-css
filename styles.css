@@ -36,3 +36,30 @@ input {
 img {
 	max-width: 300px;
 }
+button[id='color'],[id='place'],[id='ritual']{
+    height: 60px;
+    width: 50px;
+    background-color:tan ;
+    color: magenta;
+    border: 1px;
+    border-radius: 75%;
+    font-size: 10px;
+}
+/* button[id='place']{
+    height: 60px;
+    width: 50px;
+    background-color: red;
+    color: gold;
+    border: 1px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+button[id='ritual']{
+    height: 60px;
+    width: 50px;
+    background-color: whitesmoke;
+    color:black;
+    border: 1px;
+    border-radius: 75%;
+    font-size: 10px;
+} */

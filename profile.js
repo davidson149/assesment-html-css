@@ -1,6 +1,25 @@
-let myFavoriteColor=document.querySelector(`#my-favorite-color`);
+function btnColor(evt){
+    evt.preventDefault();
 
-myFavoriteColor.addEventListener("click",getColor);
-function getColor(){
-    document.getElementById("color").innerHTML="Red";
+    alert('Red');
 }
+let myFavoriteColor=document.querySelector('#color');
+myFavoriteColor.addEventListener('click',btnColor);
+console.log(myFavoriteColor)
+
+function btnPlace(evt){
+    evt.preventDefault();
+
+    alert(`Wrestling NCAA's`);
+}
+let myFavoritePlace=document.querySelector('#place');
+myFavoriteColor.addEventListener('click',btnPlace);
+
+
+function btnRitual(evt){
+    evt.preventDefault();
+
+    alert('Eating');
+}
+let myFavoriteRitual=document.querySelector('#ritual');
+myFavoriteColor.addEventListener('click',btnRitual);
